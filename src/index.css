@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+:root {
+  --bcg: #fff;
+  --textprimary: #000000;
+  --buttonbg: #000;
+  --buttontext: #ffffff;
+}
+
+.dark {
+  --bcg: #000000;
+  --textprimary: #fff;
+  --buttonbg: #fff;
+  --buttontext: #000;
+}
+
+@theme {
+  --color-background: var(--bcg);
+  --color-text: var(--textprimary);
+  --color-button: var(--buttonbg);
+  --color-btntext: var(--buttontext);
+}
+
+@layer base {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+}
