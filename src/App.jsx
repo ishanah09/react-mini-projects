@@ -1,22 +1,22 @@
-import Accordion from "./component/Project01-Accordion/Accordion";
-import RandomColor from "./component/Project02-RandomColors/RandomColor";
-import ImageSlider from "./component/Project04-ImageSLIDER/Imageslider";
-import Star from "./component/Project03-StarRating/Star";
-import LoadData from "./component/Project05-LoadMoreData/loadData";
-import TreeView from "./component/Project06-Tree-View/TreeView";
-import QRCodeGenerator from "./component/Project07-QR-Code/QRCode";
-import LightDarkTheme from "./component/Project08-Theme/Theme";
-import ScrollIndicator from "./component/Project09-Scroll-Indicator/Scroll";
-import Game from "./component/Project10-Tic-Tac-Toe/Game";
+import Accordion from "./component/Project 01-Accordion/Accordion";
+import RandomColor from "./component/Project 02-RandomColors/RandomColor";
+import ImageSlider from "./component/Project 04-ImageSLIDER/Imageslider";
+import Star from "./component/Project 03-StarRating/Star";
+import LoadData from "./component/Project 05-LoadMoreData/loadData";
+import TreeView from "./component/Project 06-Tree-View/TreeView";
+import QRCodeGenerator from "./component/Project 07-QR-Code/QRCode";
+import LightDarkTheme from "./component/Project 08-Theme/Theme";
+import ScrollIndicator from "./component/Project 09-Scroll-Indicator/Scroll";
+import Game from "./component/Project 10-Tic-Tac-Toe/Game";
 
 import { useState } from "react";
 
 export default function App() {
   return (
     <>
-      {/* <Accordion></Accordion>
+      <Accordion></Accordion>
 
-      <RandomColor></RandomColor>
+      {/* <RandomColor></RandomColor>
 
       <Star></Star>
 
@@ -31,7 +31,7 @@ export default function App() {
 
       <ScrollIndicator></ScrollIndicator> */}
 
-      <Game></Game>
+      {/* <Game></Game> */}
     </>
   );
 }
