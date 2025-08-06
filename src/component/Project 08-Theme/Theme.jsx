@@ -13,7 +13,7 @@ export default function LightDarkTheme() {
   }, [theme]);
 
   return (
-    <main className="w-screen h-screen flex items-center justify-center p-4 bg-background text-text ">
+    <main className="w-full h-screen flex items-center justify-center p-4 bg-background text-text ">
       <section className="flex flex-col items-center justify-center gap-8">
         <h1 className="text-4xl font-semibold">Hello World</h1>
         <button

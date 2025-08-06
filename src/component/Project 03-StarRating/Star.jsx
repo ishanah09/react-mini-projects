@@ -5,7 +5,7 @@ export default function Star() {
   const [click, setClick] = useState(0);
 
   return (
-    <div className="h-screen w-screen flex items-center justify-center p-4">
+    <div className="h-screen w-full flex items-center justify-center p-4">
       {[...Array(10)].map((item, index) => {
         index = index + 1;
         return (

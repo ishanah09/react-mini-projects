@@ -35,7 +35,7 @@ export default function LoadData() {
 
   if (loading) {
     return (
-      <div className="w-screen h-screen flex items-center justify-center">
+      <div className="w-full h-screen flex items-center justify-center">
         <span className="text-2xl font-semibold text-green-400">
           Loading Data! Please Wait
         </span>

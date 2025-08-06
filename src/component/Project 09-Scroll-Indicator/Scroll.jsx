@@ -56,7 +56,7 @@ export default function ScrollIndicator() {
   if (error !== null) {
     return (
       <>
-        <main className="w-screen h-screen flex items-center justify-center p-4">
+        <main className="w-full h-screen flex items-center justify-center p-4">
           <h1 className="text-3xl font-semibold text-red-600">Error !</h1>
         </main>
       </>

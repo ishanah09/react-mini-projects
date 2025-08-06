@@ -53,7 +53,7 @@ export default function RandomColor() {
   return (
     <>
       <main
-        className="h-screen w-screen flex items-center justify-between flex-col p-8"
+        className="h-screen w-full flex items-center justify-between flex-col p-8"
         style={{ backgroundColor: color }}
       >
         <div className="flex gap-4">

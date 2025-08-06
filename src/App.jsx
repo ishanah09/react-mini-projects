@@ -8,7 +8,7 @@ import QRCodeGenerator from "./component/Project 07-QR-Code/QRCode";
 import LightDarkTheme from "./component/Project 08-Theme/Theme";
 import ScrollIndicator from "./component/Project 09-Scroll-Indicator/Scroll";
 import Game from "./component/Project 10-Tic-Tac-Toe/Game";
-
+import CustomTabs from "./component/Project 11-Custom Tabs/CustomTabs";
 import { useState } from "react";
 
 export default function App() {
@@ -16,22 +16,23 @@ export default function App() {
     <>
       <Accordion></Accordion>
 
-      {/* <RandomColor></RandomColor>
+      {/* <RandomColor></RandomColor> */}
 
-      <Star></Star>
+      {/* <Star></Star> */}
 
-      <ImageSlider></ImageSlider>
+      {/* <ImageSlider></ImageSlider> */}
 
-      <LoadData></LoadData>
+      {/* <LoadData></LoadData> */}
 
-      <TreeView></TreeView>
+      {/* <TreeView></TreeView> */}
 
-      <QRCodeGenerator></QRCodeGenerator>
-      <LightDarkTheme></LightDarkTheme>
+      {/* <QRCodeGenerator></QRCodeGenerator> */}
+      {/* <LightDarkTheme></LightDarkTheme> */}
 
-      <ScrollIndicator></ScrollIndicator> */}
+      {/* <ScrollIndicator></ScrollIndicator> */}
 
       {/* <Game></Game> */}
+      {/* <CustomTabs></CustomTabs> */}
     </>
   );
 }

@@ -7,7 +7,7 @@ export default function QRCodeGenerator()
   const [code,setCode]=useState("");
   return(
     <>
-    <main className="w-screen h-screen flex items-center justify-center bg-red-50">
+    <main className="w-full h-screen flex items-center justify-center bg-red-50">
 
 <section className="flex flex-col items-center justify-center gap-6">
 <h1 className="text-2xl font-bold">QR Code Generator</h1>
