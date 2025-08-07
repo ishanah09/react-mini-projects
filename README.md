@@ -15,5 +15,6 @@ This repo contains small React projects I built with Vite. They’re simple apps
  9. Scroll Indicator - Shows how much you’ve scrolled  
 10.  Tic Tac Toe - Classic two-player game  
 11. Custom Tabs – Switch between content panels using tabbed navigation
+11. Custom Modals – Pop-up with dynamic content from parent
 
 
