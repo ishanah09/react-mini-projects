@@ -10,6 +10,7 @@ import ScrollIndicator from "./component/Project 09-Scroll-Indicator/Scroll";
 import Game from "./component/Project 10-Tic-Tac-Toe/Game";
 import CustomTabs from "./component/Project 11-Custom Tabs/CustomTabs";
 import CustomModals from "./component/Project 12-CustomModals/CustomModals";
+import GithubProfileFinder from "./component/Project 13-GithubProfileFinder/GithubProfileFinder";
 import { useState } from "react";
 
 export default function App() {
@@ -35,6 +36,7 @@ export default function App() {
       {/* <Game></Game> */}
       {/* <CustomTabs></CustomTabs> */}
       {/* <CustomModals></CustomModals> */}
+      {/* <GithubProfileFinder></GithubProfileFinder> */}
     </>
   );
 }
