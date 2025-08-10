@@ -11,6 +11,7 @@ import Game from "./component/Project 10-Tic-Tac-Toe/Game";
 import CustomTabs from "./component/Project 11-Custom Tabs/CustomTabs";
 import CustomModals from "./component/Project 12-CustomModals/CustomModals";
 import GithubProfileFinder from "./component/Project 13-GithubProfileFinder/GithubProfileFinder";
+import SearchAutoComplete from "./component/Project 14-Search AutoComplete/SearchAutoComplete";
 import { useState } from "react";
 
 export default function App() {
@@ -37,6 +38,7 @@ export default function App() {
       {/* <CustomTabs></CustomTabs> */}
       {/* <CustomModals></CustomModals> */}
       {/* <GithubProfileFinder></GithubProfileFinder> */}
+      {/* <SearchAutoComplete></SearchAutoComplete> */}
     </>
   );
 }

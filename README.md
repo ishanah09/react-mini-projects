@@ -17,5 +17,6 @@ This repo contains small React projects I built with Vite. They’re simple apps
 11. Custom Tabs – Switch between content panels using tabbed navigation
 12. Custom Modals – Pop-up with dynamic content from parent
 13. GitHub Profile Finder – Search and display GitHub user info by username
+14. Search Auto Complete – Suggest matching results as the user types
 
 
